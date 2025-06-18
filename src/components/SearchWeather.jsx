@@ -20,7 +20,10 @@ export default function SearchWeather() {
   const search = () => {
     if (!result) return null;
 
-    if (result.cod === "400") return <p className="result">Type a city name</p>;
+    if (result.cod === "400")
+      return (
+        <p className="result">Type a city name to see its current weather</p>
+      );
 
     if (result.cod === "404") return <p className="result">City not found</p>;
 

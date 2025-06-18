@@ -1,5 +1,5 @@
 {
-  "name": "my-react-template",
+  "name": "react-weather-app",
   "version": "1.0.0",
   "main": "main.jsx",
   "keywords": [
@@ -8,7 +8,7 @@
   "author": "I, Myself",
   "license": "ISC",
   "type": "module",
-  "description": "react template for me, I, by me, Myself",
+  "description": "App for searching current weather",
   "scripts": {
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
