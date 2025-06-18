@@ -1,12 +1,10 @@
-import { useState } from "react";
+import SearchWeather from "./components/SearchWeather";
 import "./App.css";
 
 function App() {
-  const [x, setX] = useState("World");
-
   return (
     <>
-      <h1>Hello {x}</h1>
+      <SearchWeather />
     </>
   );
 }
