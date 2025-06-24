@@ -39,6 +39,7 @@ export default function SearchWeather() {
 
   return (
     <div>
+      <h1 className="header">Search Weather</h1>
       <div className={`input-wrapper ${searching ? "top" : ""}`}>
         <input
           className="input"
